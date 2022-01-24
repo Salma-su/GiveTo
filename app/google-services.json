@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "518380631927",
+    "project_id": "giveit-b1ea2",
+    "storage_bucket": "giveit-b1ea2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518380631927:android:efeaeb9419066fe9b55372",
+        "android_client_info": {
+          "package_name": "com.example.giveit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518380631927-1j7ghsnf43p4p9of4klvgpqf0dmsp7os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.giveit",
+            "certificate_hash": "1105ca033c9cea95b0b63549dae0479c14454710"
+          }
+        },
+        {
+          "client_id": "518380631927-oip5g36f1j138q20jpvh8akkvmltb2m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdI3zKrVBRNCD6jS7Tqo9Jb1RjAANp7Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518380631927-oip5g36f1j138q20jpvh8akkvmltb2m9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

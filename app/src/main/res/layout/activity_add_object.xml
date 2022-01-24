@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addObjectActivity">
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Load image"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/imageName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+
+        <EditText
+            android:id="@+id/imageDescription"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            />
+
+        <EditText
+            android:id="@+id/imageAdresse"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            />
+
+        <Button
+            android:id="@+id/addImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:hint="add"
+
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

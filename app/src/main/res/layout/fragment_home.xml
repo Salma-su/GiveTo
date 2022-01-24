@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:id="@+id/homeFragment"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--    Your Content Here    -->
+        <Button
+
+            android:id="@+id/add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="0dp"
+            android:textSize="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="+"
+            android:textColor="#000"
+            app:layout_constraintTop_toTopOf="@id/recview"
+            app:layout_constraintRight_toRightOf="@id/recview"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
+
+
+
+
+<!--
+ TODO: Update blank fragment layout
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Home" />
+
+
+
+<Button
+    android:id="@+id/logoutBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="logout" />
+
+<Button
+    android:id="@+id/signupBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="signup" />
+
+</LinearLayout>
+
+
+-->
